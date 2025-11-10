@@ -10,7 +10,8 @@ Route::get('/', function () {
 
 /*
     syntax:
-    Route::get/post/put('RouteName',[ControllerName::class,'CLASS_NAME_FROM_CONTROLLER'])->name('TABLE_NAME.CLASS_NAME');
+    Route::get/post/put('RouteName',[ControllerName::class,'CLASS_NAME_FROM_CONTROLLER'])->name('ROUTE_NAME');
+    * but in route name, for store, update, destroy,,, it will use (TABLE_NAME.CLASS_NAME);
 */
 
 // product route
